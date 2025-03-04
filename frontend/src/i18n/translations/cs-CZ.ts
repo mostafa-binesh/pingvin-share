@@ -278,7 +278,7 @@ export default {
   "share.error.access-denied.title": "Soukromé sdílení",
   "share.error.access-denied.description": "Aktuální účet nemá oprávnění k přístupu k tomuto sdílení",
   "share.modal.password.title": "Heslo vyžadováno",
-  "share.modal.password.description": "Please enter the password to acces this share.",
+  "share.modal.password.description": "Please enter the password to access this share.",
   "share.modal.password": "Heslo",
   "share.modal.error.invalid-password": "Neplatné heslo",
   "share.button.download-all": "Stáhnout vše",
@@ -302,6 +302,8 @@ export default {
   "privacy.title": "Privacy Policy",
   // END /privacy
   // /admin/config
+  "admin.config.config-file-warning.title": "Configuration file present",
+  "admin.config.config-file-warning.description": "As you have a configured Pingvin Share with a configuration file, you can't change the configuration through the UI.",
   "admin.config.title": "Nastavení",
   "admin.config.category.general": "Obecné",
   "admin.config.category.share": "Sdílení",
@@ -317,7 +319,7 @@ export default {
   "admin.config.general.show-home-page": "Zobrazit domovskou stránku",
   "admin.config.general.show-home-page.description": "Zda zobrazovat domovskou stránku",
   "admin.config.general.session-duration": "Délka trvání relace",
-  "admin.config.general.session-duration.description": "Čas v hodinách, po kterém se uživatel musí znovu přihlásit (výchozí: 3 měsíce).",
+  "admin.config.general.session-duration.description": "Time after which a user must log in again (default: 3 months).",
   "admin.config.general.logo": "Logo",
   "admin.config.general.logo.description": "Změňte své logo nahráním nového obrázku. Obrázek musí být PNG a měl by mít formát 1:1.",
   "admin.config.general.logo.placeholder": "Vybrat obrázek",

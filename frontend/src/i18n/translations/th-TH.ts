@@ -278,7 +278,7 @@ export default {
   "share.error.access-denied.title": "Private share",
   "share.error.access-denied.description": "The current account does not have permission to access this share",
   "share.modal.password.title": "ต้องการรหัสผ่าน",
-  "share.modal.password.description": "Please enter the password to acces this share.",
+  "share.modal.password.description": "Please enter the password to access this share.",
   "share.modal.password": "รหัสผ่าน",
   "share.modal.error.invalid-password": "รหัสผ่านไม่ถูกต้อง",
   "share.button.download-all": "ดาวน์โหลดทั้งหมด",
@@ -302,6 +302,8 @@ export default {
   "privacy.title": "Privacy Policy",
   // END /privacy
   // /admin/config
+  "admin.config.config-file-warning.title": "Configuration file present",
+  "admin.config.config-file-warning.description": "As you have a configured Pingvin Share with a configuration file, you can't change the configuration through the UI.",
   "admin.config.title": "การตั้งค่า",
   "admin.config.category.general": "ทั่วไป",
   "admin.config.category.share": "การแชร์",
@@ -317,7 +319,7 @@ export default {
   "admin.config.general.show-home-page": "แสดงหน้าแรก",
   "admin.config.general.show-home-page.description": "หากติ๊ก เว็บไซต์จะแสดงหน้าหลักเวลาเข้าถึง URL หลัก",
   "admin.config.general.session-duration": "Session Duration",
-  "admin.config.general.session-duration.description": "Time in hours after which a user must log in again (default: 3 months).",
+  "admin.config.general.session-duration.description": "Time after which a user must log in again (default: 3 months).",
   "admin.config.general.logo": "โลโก้",
   "admin.config.general.logo.description": "เปลี่ยนโลโก้โดยอัปโหลดรูปภาพใหม่ รูปภาพต้องเป็น PNG และควรมีขนาดอัตราส่วน 1:1",
   "admin.config.general.logo.placeholder": "คลิกที่นี่หรือลากไฟล์มา",

@@ -379,7 +379,7 @@ export default {
 
   "share.modal.password.title": "Password required",
   "share.modal.password.description":
-    "Please enter the password to acces this share.",
+    "Please enter the password to access this share.",
   "share.modal.password": "Password",
   "share.modal.error.invalid-password": "Invalid password",
 
@@ -414,6 +414,9 @@ export default {
   // END /privacy
 
   // /admin/config
+  "admin.config.config-file-warning.title": "Configuration file present",
+  "admin.config.config-file-warning.description": "As you have a configured Pingvin Share with a configuration file, you can't change the configuration through the UI.",
+
   "admin.config.title": "Configuration",
   "admin.config.category.general": "General",
   "admin.config.category.share": "Share",
@@ -434,7 +437,7 @@ export default {
     "Whether to show the home page",
   "admin.config.general.session-duration": "Session Duration",
   "admin.config.general.session-duration.description":
-    "Time in hours after which a user must log in again (default: 3 months).",
+    "Time after which a user must log in again (default: 3 months).",
   "admin.config.general.logo": "Logo",
   "admin.config.general.logo.description":
     "Change your logo by uploading a new image. The image must be a PNG and should have the format 1:1.",
@@ -503,7 +506,7 @@ export default {
   "admin.config.smtp.port.description": "Port of the SMTP server",
   "admin.config.smtp.email": "Email",
   "admin.config.smtp.email.description":
-    "Email address from wich the emails get sent",
+    "Email address from which the emails get sent",
   "admin.config.smtp.username": "Username",
   "admin.config.smtp.username.description": "Username of the SMTP server",
   "admin.config.smtp.password": "Password",

@@ -8,9 +8,9 @@ import {
 } from "@mantine/core";
 import { useForm } from "@mantine/form";
 import { AdminConfig, UpdateConfig } from "../../../types/config.type";
-import TimespanInput from "../../core/TimespanInput";
 import { stringToTimespan, timespanToString } from "../../../utils/date.util";
 import FileSizeInput from "../../core/FileSizeInput";
+import TimespanInput from "../../core/TimespanInput";
 
 const AdminConfigInput = ({
   configVariable,
@@ -41,9 +41,11 @@ const AdminConfigInput = ({
       {configVariable.type == "string" &&
         (configVariable.obscured ? (
           <PasswordInput
+            autoComplete="new-password"
             style={{
               width: "100%",
             }}
+            disabled={!configVariable.allowEdit}
             {...form.getInputProps("stringValue")}
             onChange={(e) => onValueChange(configVariable, e.target.value)}
           />
@@ -52,6 +54,7 @@ const AdminConfigInput = ({
             style={{
               width: "100%",
             }}
+            disabled={!configVariable.allowEdit}
             {...form.getInputProps("stringValue")}
             placeholder={configVariable.defaultValue}
             onChange={(e) => onValueChange(configVariable, e.target.value)}
@@ -63,6 +66,7 @@ const AdminConfigInput = ({
           style={{
             width: "100%",
           }}
+          disabled={!configVariable.allowEdit}
           autosize
           {...form.getInputProps("textValue")}
           placeholder={configVariable.defaultValue}
@@ -72,6 +76,7 @@ const AdminConfigInput = ({
       {configVariable.type == "number" && (
         <NumberInput
           {...form.getInputProps("numberValue")}
+          disabled={!configVariable.allowEdit}
           placeholder={configVariable.defaultValue}
           onChange={(number) => onValueChange(configVariable, number)}
           w={201}
@@ -80,6 +85,7 @@ const AdminConfigInput = ({
       {configVariable.type == "filesize" && (
         <FileSizeInput
           {...form.getInputProps("numberValue")}
+          disabled={!configVariable.allowEdit}
           value={parseInt(configVariable.value ?? configVariable.defaultValue)}
           onChange={(bytes) => onValueChange(configVariable, bytes)}
           w={201}
@@ -88,6 +94,7 @@ const AdminConfigInput = ({
       {configVariable.type == "boolean" && (
         <>
           <Switch
+            disabled={!configVariable.allowEdit}
             {...form.getInputProps("booleanValue", { type: "checkbox" })}
             onChange={(e) => onValueChange(configVariable, e.target.checked)}
           />
@@ -96,6 +103,7 @@ const AdminConfigInput = ({
       {configVariable.type == "timespan" && (
         <TimespanInput
           value={stringToTimespan(configVariable.value)}
+          disabled={!configVariable.allowEdit}
           onChange={(timespan) =>
             onValueChange(configVariable, timespanToString(timespan))
           }

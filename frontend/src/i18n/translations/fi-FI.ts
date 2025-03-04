@@ -278,7 +278,7 @@ export default {
   "share.error.access-denied.title": "Private share",
   "share.error.access-denied.description": "The current account does not have permission to access this share",
   "share.modal.password.title": "Salasana vaaditaan",
-  "share.modal.password.description": "Please enter the password to acces this share.",
+  "share.modal.password.description": "Please enter the password to access this share.",
   "share.modal.password": "Salasana",
   "share.modal.error.invalid-password": "Virheellinen salasana",
   "share.button.download-all": "Lataa kaikki",
@@ -302,6 +302,8 @@ export default {
   "privacy.title": "Privacy Policy",
   // END /privacy
   // /admin/config
+  "admin.config.config-file-warning.title": "Configuration file present",
+  "admin.config.config-file-warning.description": "As you have a configured Pingvin Share with a configuration file, you can't change the configuration through the UI.",
   "admin.config.title": "Asetukset",
   "admin.config.category.general": "Yleiset",
   "admin.config.category.share": "Jako",
@@ -317,7 +319,7 @@ export default {
   "admin.config.general.show-home-page": "Näytä kotisivu",
   "admin.config.general.show-home-page.description": "Näytetäänkö kotisivu vai ei",
   "admin.config.general.session-duration": "Session Duration",
-  "admin.config.general.session-duration.description": "Time in hours after which a user must log in again (default: 3 months).",
+  "admin.config.general.session-duration.description": "Time after which a user must log in again (default: 3 months).",
   "admin.config.general.logo": "Logo",
   "admin.config.general.logo.description": "Muuta logoa lataamalla uusi kuva. Kuvan on oltava PNG ja sen on oltava formaatti 1:1.",
   "admin.config.general.logo.placeholder": "Valitse kuva",

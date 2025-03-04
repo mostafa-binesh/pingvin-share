@@ -278,7 +278,7 @@ export default {
   "share.error.access-denied.title": "Partage privé",
   "share.error.access-denied.description": "Le compte actuel n'a pas la permission d'accéder à ce partage",
   "share.modal.password.title": "Mot de passe requis",
-  "share.modal.password.description": "Veuillez entrer le mot de passe d'accès à ce partage.",
+  "share.modal.password.description": "Veuillez entrer le mot de passe pour accéder à ce partage.",
   "share.modal.password": "Mot de passe",
   "share.modal.error.invalid-password": "Mot de passe incorrect",
   "share.button.download-all": "Télécharger tout",
@@ -302,6 +302,8 @@ export default {
   "privacy.title": "Politique de confidentialité",
   // END /privacy
   // /admin/config
+  "admin.config.config-file-warning.title": "Configuration file present",
+  "admin.config.config-file-warning.description": "As you have a configured Pingvin Share with a configuration file, you can't change the configuration through the UI.",
   "admin.config.title": "Paramètres",
   "admin.config.category.general": "Général",
   "admin.config.category.share": "Partage",
@@ -317,7 +319,7 @@ export default {
   "admin.config.general.show-home-page": "Afficher la page d’accueil",
   "admin.config.general.show-home-page.description": "Afficher ou non la page d’accueil",
   "admin.config.general.session-duration": "Durée de la session",
-  "admin.config.general.session-duration.description": "Nombre d’heures après lesquelles un utilisateur doit se reconnecter (par défaut : 3 mois).",
+  "admin.config.general.session-duration.description": "Temps après lequel un utilisateur doit se reconnecter (par défaut : 3 mois).",
   "admin.config.general.logo": "Logo",
   "admin.config.general.logo.description": "Changez de logo en envoyant une nouvelle image. L’image doit être au format PNG et doit avoir un ratio 1:1.",
   "admin.config.general.logo.placeholder": "Sélectionner une image",

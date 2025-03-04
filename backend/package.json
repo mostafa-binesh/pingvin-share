@@ -1,6 +1,6 @@
 {
   "name": "pingvin-share-backend",
-  "version": "1.8.2",
+  "version": "1.10.1",
   "scripts": {
     "build": "nest build",
     "dev": "cross-env NODE_ENV=development nest start --watch",
@@ -50,7 +50,8 @@
     "rimraf": "^6.0.1",
     "rxjs": "^7.8.1",
     "sharp": "^0.33.5",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "yaml": "^2.7.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.4.5",

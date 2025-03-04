@@ -278,7 +278,7 @@ export default {
   "share.error.access-denied.title": "Privatno dijeljenje",
   "share.error.access-denied.description": "Trenutni račun nema dozvolu za pristup ovom dijeljenju.",
   "share.modal.password.title": "Lozinka je potrebna",
-  "share.modal.password.description": "Molimo unesite lozinku za pristup ovom dijeljenju.",
+  "share.modal.password.description": "Please enter the password to access this share.",
   "share.modal.password": "Lozinka",
   "share.modal.error.invalid-password": "Neispravna lozinka",
   "share.button.download-all": "Preuzmi sve",
@@ -302,6 +302,8 @@ export default {
   "privacy.title": "Privacy Policy",
   // END /privacy
   // /admin/config
+  "admin.config.config-file-warning.title": "Configuration file present",
+  "admin.config.config-file-warning.description": "As you have a configured Pingvin Share with a configuration file, you can't change the configuration through the UI.",
   "admin.config.title": "Konfiguracija",
   "admin.config.category.general": "Opće",
   "admin.config.category.share": "Dijeljenje",
@@ -317,7 +319,7 @@ export default {
   "admin.config.general.show-home-page": "Prikaži početnu stranicu",
   "admin.config.general.show-home-page.description": "Želite li prikazati početnu stranicu",
   "admin.config.general.session-duration": "Trajanje sesije",
-  "admin.config.general.session-duration.description": "Vrijeme u satima nakon kojeg se korisnik mora ponovno prijaviti (zadano: 3 mjeseca).",
+  "admin.config.general.session-duration.description": "Time after which a user must log in again (default: 3 months).",
   "admin.config.general.logo": "Logo",
   "admin.config.general.logo.description": "Promijenite svoj logotip učitavanjem nove slike. Slika mora biti PNG i imati format 1:1.",
   "admin.config.general.logo.placeholder": "Odaberite sliku",
